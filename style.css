@@ -1,0 +1,68 @@
+body
+{
+    background-image: url(img/woda.jpg);
+    font-size: 20px;
+    color: rgba(232,199,35,1);
+    font-family: 'Baloo Tamma', cursive;
+}
+#container
+{
+    background-color: rgb(15, 15, 15);
+    width: 300px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow: 1px 1px 9px 1px rgba(232,199,35,1);
+}
+input[type=text],
+input[type=password]
+{
+    width: 300px;
+    background-color: #efefef;
+    color: #666666;
+    border: 2px solid rgba(232,199,35,1);
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Baloo Tamma', cursive;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+input[type=text]:focus,
+input[type=password]:focus
+{
+    box-shadow: 1px 1px 9px 1px rgb(255, 251, 0);
+    border: 2px solid rgb(204, 201, 50);
+    background-color: rgb(253, 252, 168);
+    color: black;
+}
+
+input[type=submit]
+{
+    width: 300px;
+    background-color: rgba(232,199,35,1);
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-family: 'Baloo Tamma', cursive;
+    outline: none;
+    margin-top: 15px;
+}
+input[type=submit]:focus
+{
+    box-shadow: 0px 1px 10px 1px rgb(255, 251, 0);
+    border: 1px solid black;
+}
+input[type=submit]:hover
+{
+    background-color: rgb(216, 180, 2)
+}
+
